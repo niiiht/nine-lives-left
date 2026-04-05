@@ -11,6 +11,7 @@ public class player_movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+      
     }
 
     // Update is called once per frame
@@ -22,6 +23,7 @@ public class player_movement : MonoBehaviour
     {
         animator.SetBool("isWalking", true);
         
+           Debug.Log("dupa");
 
         if(context.canceled){
             animator.SetBool("isWalking", false);
@@ -37,3 +39,4 @@ public class player_movement : MonoBehaviour
 
     }
 }
+
