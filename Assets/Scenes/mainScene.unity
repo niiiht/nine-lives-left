@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e4637c2910d8c419a28a61b06e8188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  menuCanvas: {fileID: 0}
+  Menucanvas: {fileID: 1291630390}
 --- !u!114 &314447992
 MonoBehaviour:
   m_ObjectHideFlags: 0
