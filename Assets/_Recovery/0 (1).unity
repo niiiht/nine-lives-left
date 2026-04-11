@@ -1717,7 +1717,6 @@ GameObject:
   - component: {fileID: 442719554}
   - component: {fileID: 442719556}
   - component: {fileID: 442719555}
-  - component: {fileID: 442719557}
   m_Layer: 5
   m_Name: maptab
   m_TagString: Untagged
@@ -1783,35 +1782,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442719553}
   m_CullTransparentMesh: 1
---- !u!114 &442719557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442719553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 640611191}
-          m_TargetAssemblyTypeName: tabcontroler, Assembly-CSharp
-          m_MethodName: activeTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,8 +2021,6 @@ GameObject:
   m_Component:
   - component: {fileID: 640611189}
   - component: {fileID: 640611190}
-  - component: {fileID: 640611191}
-  - component: {fileID: 640611192}
   m_Layer: 5
   m_Name: tabs
   m_TagString: Untagged
@@ -2107,57 +2075,6 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &640611191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640611188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb4b1db53ae746948bfab75c8a5ae91d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  tabimages:
-  - {fileID: 2094152009}
-  - {fileID: 909873265}
-  - {fileID: 442719555}
-  - {fileID: 1341967050}
-  pages:
-  - {fileID: 353989645}
-  - {fileID: 2005319459}
-  - {fileID: 1867388536}
-  - {fileID: 955771201}
---- !u!114 &640611192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640611188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 640611191}
-          m_TargetAssemblyTypeName: tabcontroler, Assembly-CSharp
-          m_MethodName: activeTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &909873263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,7 +2086,6 @@ GameObject:
   - component: {fileID: 909873264}
   - component: {fileID: 909873266}
   - component: {fileID: 909873265}
-  - component: {fileID: 909873267}
   m_Layer: 5
   m_Name: inventorytab
   m_TagString: Untagged
@@ -2235,35 +2151,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909873263}
   m_CullTransparentMesh: 1
---- !u!114 &909873267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909873263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 640611191}
-          m_TargetAssemblyTypeName: tabcontroler, Assembly-CSharp
-          m_MethodName: activeTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &944675665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3169,7 +3056,6 @@ GameObject:
   - component: {fileID: 1341967049}
   - component: {fileID: 1341967051}
   - component: {fileID: 1341967050}
-  - component: {fileID: 1341967052}
   m_Layer: 5
   m_Name: settingstab
   m_TagString: Untagged
@@ -3235,35 +3121,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341967048}
   m_CullTransparentMesh: 1
---- !u!114 &1341967052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1341967048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 640611191}
-          m_TargetAssemblyTypeName: tabcontroler, Assembly-CSharp
-          m_MethodName: activeTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1348430554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,7 +3507,6 @@ GameObject:
   - component: {fileID: 2094152008}
   - component: {fileID: 2094152010}
   - component: {fileID: 2094152009}
-  - component: {fileID: 2094152011}
   m_Layer: 5
   m_Name: playertab
   m_TagString: Untagged
@@ -3716,35 +3572,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094152007}
   m_CullTransparentMesh: 1
---- !u!114 &2094152011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094152007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 640611191}
-          m_TargetAssemblyTypeName: tabcontroler, Assembly-CSharp
-          m_MethodName: activeTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &2094787272
 GameObject:
   m_ObjectHideFlags: 0
