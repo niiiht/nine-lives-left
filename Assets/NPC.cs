@@ -9,16 +9,39 @@ public class NPC : MonoBehaviour
     public GameObject dialougePanel;
     public TMP_Text dialougeText, nameText;
     public Image portraitImage;
+    public Sprite normalSprite;
+    public Sprite highlightSprite;
 
     private int dialougeIndex;
-    private bool isTyping, isDialougeActive;
+    private bool isTyping, isDialougeActive, isInRange;
+    private SpriteRenderer sr;
 
+    void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        sr.sprite = normalSprite;
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("gracz"))
+            isInRange = true;
+            sr.sprite = highlightSprite;
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("gracz"))
+            isInRange = false;
+            sr.sprite = normalSprite;
+    }
     public bool CanInteract()
     {
-        return !isDialougeActive;
+        return isInRange && !isDialougeActive;
     }
     public void Interact()
     {
+        if (!isInRange) 
+            return;
         if (dialougeData == null/* || (PauseController.IsGamePaused && !isDialougeActive (nie mamy pauzyzaimplementowanej))*/)
             return;
         if (isDialougeActive)
@@ -84,7 +107,7 @@ public class NPC : MonoBehaviour
         isDialougeActive = false;
         dialougeText.SetText("");
         dialougePanel.SetActive(false);
-        //PauseController.SetPause(fals+e);
+        //PauseController.SetPause(false);
     }
 }
 

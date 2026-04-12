@@ -58,12 +58,13 @@ public class CursorUniversal : MonoBehaviour
 
     bool IsPointerOverWorld(Vector2 mousePos)
     {
-        Vector3 mouse = mousePos;
-        mouse.z = Mathf.Abs(Camera.main.transform.position.z);
-        Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouse);
-        Collider2D hit = Physics2D.OverlapPoint(worldPos);
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(
+            new Vector3(mousePos.x, mousePos.y, -Camera.main.transform.position.z)
+        );
 
-        return hit != null && hit.CompareTag("click");
+        RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+
+        return hit.collider != null && hit.collider.CompareTag("click");
     }
 
     void SetCursor(Texture2D tex)
