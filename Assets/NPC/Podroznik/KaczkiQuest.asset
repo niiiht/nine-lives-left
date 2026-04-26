@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: KaczkiQuest
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialouge
   npcName: "Podr\xF3\u017Cnik"
-  npcPortrait: {fileID: 21300000, guid: a39aa6ac728f4cc4d97a2f72bd4bfdff, type: 3}
+  npcPortrait: {fileID: -5911790596499999137, guid: 891c985057c0d2a4abc7df7e4c10d53d, type: 3}
   dialougeLines:
   - Witaj
   - "Nie jeste\u015B z t\u0105d, prawda?"
