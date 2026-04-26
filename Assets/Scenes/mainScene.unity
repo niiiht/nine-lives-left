@@ -1555,6 +1555,51 @@ RectTransform:
   m_AnchoredPosition: {x: -240.625, y: -95}
   m_SizeDelta: {x: 515.625, y: 33.778}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &499965164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499965166}
+  - component: {fileID: 499965165}
+  m_Layer: 0
+  m_Name: SceneMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &499965165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499965164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6154e8fe330d3a94ab8e17b5fe165e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  music: {fileID: 8300000, guid: 7140ed60b1f6ccb43ac53f749b557ae1, type: 3}
+--- !u!4 &499965166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499965164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 573.4857, y: 621.5636, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,7 +1706,7 @@ GameObject:
   - component: {fileID: 743193167}
   m_Layer: 5
   m_Name: closeDialouge
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3622,3 +3667,4 @@ SceneRoots:
   - {fileID: 944675668}
   - {fileID: 300882983}
   - {fileID: 1348430558}
+  - {fileID: 499965166}
