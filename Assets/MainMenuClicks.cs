@@ -5,6 +5,6 @@ public class MainMenuClicks : MonoBehaviour
 {
     public void StartGame() 
     {
-        SceneManager.LoadScene("mainScene");
+        SceneManager.LoadScene("intro");
     }
 }

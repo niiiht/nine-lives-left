@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5031339}
   m_Layer: 5
   m_Name: second_box
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 118443112}
   m_Layer: 5
   m_Name: gogles
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 123357918}
   m_Layer: 5
   m_Name: tasma5_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 276325469}
   m_Layer: 5
   m_Name: drzwi_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 340107865}
   m_Layer: 5
   m_Name: second_box
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 469116827}
   m_Layer: 5
   m_Name: box_o2
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 644792906}
   m_Layer: 5
   m_Name: paczka_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 694055857}
   m_Layer: 5
   m_Name: stuffing_03
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2202,7 +2202,7 @@ GameObject:
   - component: {fileID: 1045848910}
   m_Layer: 5
   m_Name: box_o3
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 1095279980}
   m_Layer: 5
   m_Name: stuffing
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2512,7 +2512,7 @@ GameObject:
   - component: {fileID: 1115368252}
   m_Layer: 5
   m_Name: box_01
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2755,7 +2755,7 @@ GameObject:
   - component: {fileID: 1145210341}
   m_Layer: 5
   m_Name: linia_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 1173003782}
   m_Layer: 5
   m_Name: game
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2991,7 +2991,7 @@ GameObject:
   - component: {fileID: 1233326326}
   m_Layer: 5
   m_Name: tasma1_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3328,7 +3328,7 @@ GameObject:
   - component: {fileID: 1380170356}
   m_Layer: 5
   m_Name: tasma3_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3701,7 +3701,7 @@ GameObject:
   - component: {fileID: 1523914329}
   m_Layer: 5
   m_Name: stuffing_02
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,7 +4003,7 @@ GameObject:
   - component: {fileID: 1606092610}
   m_Layer: 5
   m_Name: tasma4_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4184,7 +4184,7 @@ GameObject:
   - component: {fileID: 1833396737}
   m_Layer: 5
   m_Name: inside_paczka
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4335,7 +4335,7 @@ GameObject:
   - component: {fileID: 1934738525}
   m_Layer: 5
   m_Name: last_box
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4763,6 +4763,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049560618}
   m_CullTransparentMesh: 1
+--- !u!1 &2057066946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2057066948}
+  - component: {fileID: 2057066947}
+  m_Layer: 0
+  m_Name: kursorControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2057066947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057066946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a05554207bfb2846ae8000c84dec8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorUniversal
+  normal: {fileID: 2800000, guid: e3183723c97a36d428abbe56aa45eafc, type: 3}
+  hover: {fileID: 2800000, guid: 61f9a453cecd1604d850fb7fb04545b3, type: 3}
+  click: {fileID: 2800000, guid: a59df6e945fbfab4ab2e26fd2424ce59, type: 3}
+--- !u!4 &2057066948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057066946}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 793.2217, y: 301.21863, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080919377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4778,7 +4825,7 @@ GameObject:
   - component: {fileID: 2080919379}
   m_Layer: 5
   m_Name: tasma2_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5022,3 +5069,4 @@ SceneRoots:
   - {fileID: 847989483}
   - {fileID: 357159299}
   - {fileID: 1369395144}
+  - {fileID: 2057066948}
