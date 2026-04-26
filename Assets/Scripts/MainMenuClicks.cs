@@ -3,8 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuClicks : MonoBehaviour
 {
+    public string sceneName;
     public void StartGame() 
     {
-        SceneManager.LoadScene("intro");
+        SceneManager.LoadScene(sceneName);
     }
 }
