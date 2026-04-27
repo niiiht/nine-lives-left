@@ -16,12 +16,15 @@ MonoBehaviour:
   npcPortrait: {fileID: -5911790596499999137, guid: 891c985057c0d2a4abc7df7e4c10d53d, type: 3}
   dialougeLines:
   - Witaj
-  - "Nie jeste\u015B z t\u0105d, prawda?"
-  - "Ja te\u017C od lat podr\xF3\u017Cuje po \u015Bwiecie."
-  - "Zawsze towrzysy\u0142y mi kaczki."
-  - "Jednak gdy przybyli\u015Bmy do tego miejsca, co\u015B je wystraszy\u0142o i
-    wzyskie uciek\u0142y."
-  - "Je\u015Bli odnajdziesz je wszytkie, pomog\u0119 ci si\u0119 z t\u0105d wydosta\u0107"
+  - "Nie jeste\u015B st\u0105d, prawda?"
+  - "Ja te\u017C od lat podr\xF3\u017Cuje po \u015Bwiecie z moimi kaczkami. S\u0105
+    dla mnie jak rodzina."
+  - "Ostatnio oddali\u0142em si\u0119 od nich na chwil\u0119, gdy poszedlem szuka\u0107
+    jag\xF3d."
+  - "Kiedy wr\xF3ci\u0142em ju\u017C ich nie by\u0142o! Co\u015B musia\u0142o je
+    wystraszy\u0107 i uciek\u0142y w g\u0142\u0105b lasu. "
+  - "Ca\u0142y dzie\u0144 pr\xF3buje je znale\u017C\u0107, ale nic z tego. Pomo\u017Cesz
+    mi?"
   autoProgressLines: 010101010100
   autoProgerssDelay: 1.5
   typingSpeed: 0.05
