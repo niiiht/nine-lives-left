@@ -1,0 +1,44 @@
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class dialougeControl : MonoBehaviour
+{
+    public static dialougeControl Instance { get; private set; }
+
+    public GameObject dialougePanel;
+    public TMP_Text dialougeText, nameText;
+    public Image portraitImage;
+    public Transform choiceContainer;
+    public GameObject choiceButtonPrefab;
+   
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
+
+    public void ShowDialougeUI(bool show)
+    {
+        dialougePanel.SetActive(show);
+    }
+    public void SetNPCInfo(string npcName, Sprite portrait)
+    {
+        nameText.text = npcName;
+        portraitImage.sprite = portrait;
+    }
+    public void SetDialougeText(string text)
+    {
+        dialougeText.text = text;
+    }
+    public void ClearChoices()
+    {
+        foreach (Transform child in choiceContainer) Destroy(child.gameObject);
+    }
+    public void CreateChoiceButton(string choiceText, UnityEngine.Events.UnityAction onClick)
+    {
+        GameObject choiceButton = Instantiate(choiceButtonPrefab, choiceContainer);
+        choiceButton.GetComponentInChildren<TMP_Text>().text = choiceText;
+        choiceButton.GetComponent<Button>().onClick.AddListener(onClick);
+    }
+}
