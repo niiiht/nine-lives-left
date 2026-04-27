@@ -13,11 +13,16 @@ MonoBehaviour:
   m_Name: KaczkiQuest
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialouge
   npcName: "Podr\xF3\u017Cnik"
-  npcPortrait: {fileID: 21300000, guid: a39aa6ac728f4cc4d97a2f72bd4bfdff, type: 3}
+  npcPortrait: {fileID: -5911790596499999137, guid: 891c985057c0d2a4abc7df7e4c10d53d, type: 3}
   dialougeLines:
-  - Hello
-  - Bye
-  autoProgressLines: 0100
+  - Witaj
+  - "Nie jeste\u015B z t\u0105d, prawda?"
+  - "Ja te\u017C od lat podr\xF3\u017Cuje po \u015Bwiecie."
+  - "Zawsze towrzysy\u0142y mi kaczki."
+  - "Jednak gdy przybyli\u015Bmy do tego miejsca, co\u015B je wystraszy\u0142o i
+    wzyskie uciek\u0142y."
+  - "Je\u015Bli odnajdziesz je wszytkie, pomog\u0119 ci si\u0119 z t\u0105d wydosta\u0107"
+  autoProgressLines: 010101010100
   autoProgerssDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
