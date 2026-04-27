@@ -1487,7 +1487,6 @@ GameObject:
   - component: {fileID: 1338679721}
   - component: {fileID: 1338679720}
   - component: {fileID: 1338679719}
-  - component: {fileID: 1338679723}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1581,18 +1580,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1338679723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338679718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a15288e547336924ba24ce0c2e120dd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenuClicks
 --- !u!1 &1405830399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +1925,7 @@ GameObject:
   - component: {fileID: 1495359051}
   - component: {fileID: 1495359050}
   - component: {fileID: 1495359049}
+  - component: {fileID: 1495359054}
   - component: {fileID: 1495359053}
   m_Layer: 5
   m_Name: newGame
@@ -2022,7 +2010,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1338679723}
+      - m_Target: {fileID: 1495359054}
         m_TargetAssemblyTypeName: MainMenuClicks, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
@@ -2118,6 +2106,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1495359054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495359047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15288e547336924ba24ce0c2e120dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuClicks
+  sceneName: intro
 --- !u!1 &1507874869
 GameObject:
   m_ObjectHideFlags: 0
