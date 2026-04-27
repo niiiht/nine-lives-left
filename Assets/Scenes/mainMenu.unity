@@ -1593,6 +1593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15288e547336924ba24ce0c2e120dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuClicks
+  sceneName: intro
 --- !u!1 &1405830399
 GameObject:
   m_ObjectHideFlags: 0

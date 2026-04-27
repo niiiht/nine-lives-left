@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 118443112}
   m_Layer: 5
   m_Name: gogles
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 123357918}
   m_Layer: 5
   m_Name: tasma5_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 276325469}
   m_Layer: 5
   m_Name: drzwi_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 340107865}
   m_Layer: 5
   m_Name: second_box
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 469116827}
   m_Layer: 5
   m_Name: box_o2
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 644792906}
   m_Layer: 5
   m_Name: paczka_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 694055857}
   m_Layer: 5
   m_Name: stuffing_03
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1973,7 +1973,7 @@ GameObject:
   - component: {fileID: 873452935}
   m_Layer: 5
   m_Name: box_o4
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2216,7 +2216,7 @@ GameObject:
   - component: {fileID: 1045848910}
   m_Layer: 5
   m_Name: box_o3
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2382,7 +2382,7 @@ GameObject:
   - component: {fileID: 1095279980}
   m_Layer: 5
   m_Name: stuffing
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 1115368252}
   m_Layer: 5
   m_Name: box_01
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2769,7 +2769,7 @@ GameObject:
   - component: {fileID: 1145210341}
   m_Layer: 5
   m_Name: linia_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2907,7 +2907,7 @@ GameObject:
   - component: {fileID: 1173003782}
   m_Layer: 5
   m_Name: game
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3052,7 +3052,7 @@ GameObject:
   - component: {fileID: 1233326326}
   m_Layer: 5
   m_Name: tasma1_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3389,7 +3389,7 @@ GameObject:
   - component: {fileID: 1380170356}
   m_Layer: 5
   m_Name: tasma3_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3762,7 +3762,7 @@ GameObject:
   - component: {fileID: 1523914329}
   m_Layer: 5
   m_Name: stuffing_02
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3907,7 +3907,7 @@ GameObject:
   - component: {fileID: 1529151729}
   m_Layer: 5
   m_Name: scene1
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4064,7 +4064,7 @@ GameObject:
   - component: {fileID: 1606092610}
   m_Layer: 5
   m_Name: tasma4_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4467,7 +4467,7 @@ GameObject:
   - component: {fileID: 1934738525}
   m_Layer: 5
   m_Name: last_box
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4611,7 +4611,7 @@ GameObject:
   - component: {fileID: 1953470410}
   m_Layer: 5
   m_Name: lastImage
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 2080919379}
   m_Layer: 5
   m_Name: tasma2_object
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5017,7 +5017,7 @@ GameObject:
   - component: {fileID: 2142905917}
   m_Layer: 5
   m_Name: dingdong
-  m_TagString: Untagged
+  m_TagString: click
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

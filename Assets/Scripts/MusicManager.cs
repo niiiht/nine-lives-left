@@ -25,6 +25,7 @@ public class MusicManager : MonoBehaviour
         }
 
         Instance = this;
+        Debug.Log("MusicManager created in: " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         DontDestroyOnLoad(gameObject);
 
         audioSource = GetComponent<AudioSource>();
