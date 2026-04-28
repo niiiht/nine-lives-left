@@ -17,17 +17,6 @@ MonoBehaviour:
   dialougeLines:
   - Witaj
   - "Nie jeste\u015B st\u0105d, prawda?"
-<<<<<<< Updated upstream
-  - "Ja te\u017C od lat podr\xF3\u017Cuje po \u015Bwiecie z moimi kaczkami. S\u0105
-    dla mnie jak rodzina."
-  - "Ostatnio oddali\u0142em si\u0119 od nich na chwil\u0119, gdy poszedlem szuka\u0107
-    jag\xF3d."
-  - "Kiedy wr\xF3ci\u0142em ju\u017C ich nie by\u0142o! Co\u015B musia\u0142o je
-    wystraszy\u0107 i uciek\u0142y w g\u0142\u0105b lasu. "
-  - "Ca\u0142y dzie\u0144 pr\xF3buje je znale\u017C\u0107, ale nic z tego. Pomo\u017Cesz
-    mi?"
-  autoProgressLines: 010101010100
-=======
   - "Ja te\u017C od lat podr\xF3\u017Cuje po \u015Bwiecie."
   - "Zawsze towarzyszy\u0142y mi kaczki."
   - "Jednak gdy przybyli\u015Bmy do tego miejsca, co\u015B je wystraszy\u0142o i
@@ -40,7 +29,6 @@ MonoBehaviour:
   - "Wr\xF3\u0107 gdy b\u0119dziesz gotowa."
   autoProgressLines: 0000000000000000000000
   endDialougeLines: 0000000000000000010001
->>>>>>> Stashed changes
   autoProgerssDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
