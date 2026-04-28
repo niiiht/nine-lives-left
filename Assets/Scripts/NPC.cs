@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour
 {
     public NPCDialouge dialougeData;
     private dialougeControl dialougeUI;
-
+    public GameObject[] kaczkiNaZiemi;
     public Sprite normalSprite;
     public Sprite highlightSprite;
 
@@ -21,6 +21,9 @@ public class NPC : MonoBehaviour
         dialougeUI = dialougeControl.Instance;
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = normalSprite;
+
+        foreach (var kaczka in kaczkiNaZiemi)
+            kaczka.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -175,6 +178,9 @@ public class NPC : MonoBehaviour
         if (nextIndex == 7)
         {
             acceptedQuest = true;
+
+            foreach (var kaczka in kaczkiNaZiemi)
+                kaczka.SetActive(true);
         }
 
         dialougeUI.ClearChoices();

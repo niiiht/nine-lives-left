@@ -6,6 +6,7 @@ TagManager:
   tags:
   - click
   - gracz
+  - item
   layers:
   - Default
   - TransparentFX
