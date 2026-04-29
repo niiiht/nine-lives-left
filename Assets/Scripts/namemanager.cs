@@ -1,5 +1,7 @@
-using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class namemanager : MonoBehaviour
 {
@@ -20,9 +22,15 @@ public class namemanager : MonoBehaviour
 
     public static string imieGracza;
     public static string nazwiskoGracza;
+    public float czasWidocznosci = 3f;
 
     void Start()
     {
+        if (PlayerPrefs.HasKey("PlayerName"))
+        {
+            gameObject.SetActive(false);
+            return;
+        }
         // Upewniamy się, że na start widać tylko tył
         if (fociatyl != null) fociatyl.SetActive(true);
         if (fociaprzod != null) fociaprzod.SetActive(false);
@@ -37,7 +45,11 @@ public class namemanager : MonoBehaviour
         {
             imieGracza = daneImie;
             nazwiskoGracza = daneNazwisko;
-            
+
+            PlayerPrefs.SetString("PlayerName", daneImie);
+            PlayerPrefs.SetString("PlayerSurname", daneNazwisko);
+            PlayerPrefs.Save();
+
             WyswietlIZatwierdz(daneImie, daneNazwisko);
         }
     }
@@ -64,5 +76,11 @@ public class namemanager : MonoBehaviour
         if (podajim != null) podajim.gameObject.SetActive(false);
         if (podajnazw != null) podajnazw.gameObject.SetActive(false);
         if (zatwim != null) zatwim.SetActive(false);
+        StartCoroutine(ZamknijPanelPoChwili());
+    }
+    private IEnumerator ZamknijPanelPoChwili()
+    {
+        yield return new WaitForSeconds(czasWidocznosci);
+        gameObject.SetActive(false);
     }
 }

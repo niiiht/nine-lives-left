@@ -50,9 +50,11 @@ MonoBehaviour:
   - sceneName: mainMenu
     music: {fileID: 8300000, guid: e0fd27c9b20a61440831fc273c1f4f8c, type: 3}
   - sceneName: intro
-    music: {fileID: 8300000, guid: 7140ed60b1f6ccb43ac53f749b557ae1, type: 3}
+    music: {fileID: 8300000, guid: a1a0d1510dc770944a8ef2e6943e9683, type: 3}
   - sceneName: mainScene
-    music: {fileID: 8300000, guid: 7140ed60b1f6ccb43ac53f749b557ae1, type: 3}
+    music: {fileID: 8300000, guid: a1a0d1510dc770944a8ef2e6943e9683, type: 3}
+  - sceneName: most
+    music: {fileID: 8300000, guid: a1a0d1510dc770944a8ef2e6943e9683, type: 3}
 --- !u!82 &8633567925087192915
 AudioSource:
   m_ObjectHideFlags: 0
