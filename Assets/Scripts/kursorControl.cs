@@ -50,7 +50,7 @@ public class CursorUniversal : MonoBehaviour
 
         foreach (var r in results)
         {
-            if (r.gameObject.CompareTag("click"))
+            if (r.gameObject.CompareTag("click") || r.gameObject.CompareTag("item"))
                 return true;
         }
         return false;

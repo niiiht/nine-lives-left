@@ -8,4 +8,5 @@ public class savedata
 {
     public Vector3 playerPosition;
     public string mapBoundary;
+    public List<saveItemData> saveitemdata;
 }
