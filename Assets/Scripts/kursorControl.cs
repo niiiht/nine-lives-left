@@ -13,6 +13,7 @@ public class CursorUniversal : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("wdad");
         Cursor.visible = true;
         SetCursor(normal);
     }
