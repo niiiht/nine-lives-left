@@ -4538,8 +4538,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46, y: 0}
-  m_SizeDelta: {x: 270.4033, y: 109.92}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770094333
 MonoBehaviour:
@@ -4561,7 +4561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 888219703646752105, guid: 629c266fb6b53c445acf9e824a182208, type: 3}
+  m_Sprite: {fileID: -732347642, guid: d4b81cce61db2af42a3e4a7a9dbd1556, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4647,7 +4647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15288e547336924ba24ce0c2e120dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuClicks
-  sceneName: mainScene
+  sceneName: mapa1
 --- !u!95 &1770094337
 Animator:
   serializedVersion: 7
@@ -4658,7 +4658,7 @@ Animator:
   m_GameObject: {fileID: 1770094331}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d528a2db7e662e74f9e0b70702ca4644, type: 2}
+  m_Controller: {fileID: 9100000, guid: d16ba174eb2fee147932ed9c647a8224, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
